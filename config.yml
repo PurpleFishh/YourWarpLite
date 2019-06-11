@@ -1,0 +1,60 @@
+#--=YourWarpLite=--
+# This is the config of the plugin where you can configurate the plugin.
+# Don't modify the 'configcoord.yml' where the plugin save the data
+# The code for color is '&' that need to be put in front of the color code
+
+#-=Permissions=-
+#'yourwarp' - the main permission for the plugin
+#'yourwarp.createwarp.owner' - create a warp for you, not global
+#'yourwarp.createwarp.global' - create a warp for all the server, global
+#'yourwarp.delete.owner' - delete his warp
+#'yourwarp.delete.global' - delete a global warp
+#'yourwarp.teleport.owner' - teleport to his warp
+#'yourwarp.teleport.global' - teleport to a global warp
+#'yourwarp.list.owner' -see his warps
+#'yourwarp.list.global' - see the global warps
+#'yourwarp.warphelp' - for '/warphelp' command, that show the insturctions for commands
+
+#-=Messages=-
+
+#-Warning
+# There you put the message that the player gets when he don't have the permission for the command
+permission: "&cYou don't have the permission!"
+
+
+#-Create
+# There you put the message that the player gets when he don't put the warp name when he create a warp
+createargs: "&c/warp create <warp_name> !"
+# There you put the message that the player gets when he don't specify what he wants from warp command 
+warpargs: "&c/warp <create>!"
+# There you put the message that the player gets when he wants to create a warp with an existing warp name
+existingwarpname: "&cYou already have a warp with that name!"
+# There you put the message that the player gets when he wants to go to an non-existent warp 
+non-exwarpteleport: "&cYou don't have any warp with that name!"
+# There you put the message that the player gets when he make a warp. You can use %warp_name% to display the name of the created warp
+warpcreate: "&aYou created a warp with success!"
+
+
+#-Teleport
+# There you put the message that the player gets when he make a warp. You can use %warp_name% to display the warp where the player was teleported
+warpteleport: "&aYou were teleported at %warp_name%!"
+
+
+#-Show List
+# There you put the message that the player want to see his warps. You can use %warp_list% to display the warp list
+warplistowner: "&6Your warps are: &e%warp_list%"
+# There you put the message that the player want to see the global warps. You can use %warp_list% to display the warp list
+warplistglobal: "&6The server warps are: &e%warp_list%"
+# There you put the color for %warp_list% (the warp list) that will be put at the 'warplist' section of config
+warplistcolor: "&e"
+
+
+#-Delete
+# There you put the message that the player gets when he don't put the warp name when he wants to delete
+deleteargs: "&c/warp delete <warp_name> !"
+# There you put the message that the player gets when he wants to delete an non-existent warp 
+non-exwarpdelete: "&cYou don't have any warp with that name!"
+# There you put the message that the player gets when he delete a warp with success
+successdelete: "&aYou deleted the warp with success!"
+
+#-CopyRight PurpleFishh 2019

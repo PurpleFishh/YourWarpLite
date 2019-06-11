@@ -1,0 +1,11 @@
+name: YourWarpLite
+main: me.purplefishh.yourwarp.Main
+version: 1.0
+author: PurpleFishh
+commands:
+   warp:
+      permission-message: You don't have permission
+      description: Main command of YourWarp.
+   warphelp:
+      permission-message: You don't have permission
+      description: The guide for the plugin.
