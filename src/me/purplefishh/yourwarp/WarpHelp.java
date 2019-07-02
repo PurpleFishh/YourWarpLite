@@ -20,10 +20,6 @@ public class WarpHelp implements CommandExecutor {
 		p.sendMessage(ChatColor.GOLD + "/warp create <warp_name>" + ChatColor.YELLOW + " create a warp for you");
 		p.sendMessage(ChatColor.GOLD + "/warp create <warp_name> global" + ChatColor.YELLOW
 				+ " create a warp for all the server");
-		p.sendMessage(ChatColor.GOLD + "/warp create <warp_name>" + ChatColor.YELLOW
-				+ " create a warp for you");
-		p.sendMessage(ChatColor.GOLD + "/warp create <warp_name> global" + ChatColor.YELLOW
-				+ " create a warp for the server");
 		p.sendMessage(ChatColor.GOLD + "/warp delete <warp_name>" + ChatColor.YELLOW + " delete a warp");
 
 		return true;
